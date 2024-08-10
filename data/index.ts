@@ -3,7 +3,7 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[47vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -61,3 +61,6 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+
+export const leftTechStack = ["React", "Typescript", "Next.js"];
+export const rightTechStack = ["TailwindCSS", "Redux", "Jest"];
