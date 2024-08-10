@@ -64,3 +64,38 @@ export const gridItems = [
 
 export const leftTechStack = ["React", "Typescript", "Next.js"];
 export const rightTechStack = ["TailwindCSS", "Redux", "Jest"];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Evently - Event organization web app",
+    des: "Evently is a web app that helps you organize events. It provides a user-friendly interface for creating, editing, and managing events.",
+    img: "/p1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://event-platform-snowy-one.vercel.app",
+  },
+  {
+    id: 2,
+    title: "Live Docs - Real-time collaboration app",
+    des: "Live Docs is a real-time collaboration app that allows multiple users to work on the same document simultaneously. It provides a user-friendly interface for real-time collaboration and real-time editing.",
+    img: "/p2.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://live-docs-taupe.vercel.app",
+  },
+  {
+    id: 3,
+    title: "Healthcare - Health appointment scheduling app.",
+    des: "Healthcare is a health appointment scheduling app that helps users find and book health appointments. It provides a user-friendly interface for booking health appointments.",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://healthcare-seven-wheat.vercel.app",
+  },
+  {
+    id: 4,
+    title: "Finance - Expenses and income tracking app.",
+    des: "Finance is an expenses and income tracking app that helps users manage their finances. It provides a user-friendly interface for tracking expenses and income.",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://finance-eosin-three.vercel.app",
+  },
+];
