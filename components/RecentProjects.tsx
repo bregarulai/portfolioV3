@@ -1,5 +1,4 @@
 import { projects } from "@/data";
-// import PinCard from "./PinCard";
 import { PinContainer } from "./ui/3d-pin";
 import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa";
@@ -19,7 +18,7 @@ const RecentProjects = () => {
           >
             <PinContainer title={link} href={link} className="mb-6">
               <div className="relative flex items-center justify-center overflow-hidden mb-10 w-[25rem] sm:w-[36rem] md:w-[25rem] h-full">
-                <div className="h-80 md:h-64 w-[27rem">
+                <div className="h-80 md:h-64 w-[27rem]">
                   {/* TODO: get Stock Images for the project */}
                   <Image
                     src={img}
