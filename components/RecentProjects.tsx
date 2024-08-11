@@ -6,7 +6,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProjects = () => {
   return (
-    <section className="py-20">
+    <section id="projects" className="py-20">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -15,23 +15,16 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="h-full flex items-center w-[20rem] mb-40 md:mb-32"
+            className="h-full flex items-center w-[20rem] mb-28 md:mb-20"
           >
             <PinContainer title={link} href={link} className="mb-6">
               <div className="relative flex items-center justify-center overflow-hidden mb-10 w-[25rem] sm:w-[36rem] md:w-[25rem] h-full">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <Image src="/bg.png" alt="bgimg" fill />
-                </div>
-
-                <div className="h-80 md:h-64 w-96">
+                <div className="h-80 md:h-64 w-[27rem">
                   {/* TODO: get Stock Images for the project */}
                   <Image
                     src={img}
                     alt="cover"
-                    className="object-cover object-center !top-2"
+                    className="object-cover object-center"
                     fill
                   />
                 </div>
@@ -50,7 +43,7 @@ const RecentProjects = () => {
               >
                 {des}
               </p>
-              <div className="flex items-center justify-between mt-7 mb-3">
+              <div className="flex items-center justify-between mt-7 mb-3 mr-2">
                 <div className="flex items-center">
                   {iconLists.map((icon, index) => (
                     <div
