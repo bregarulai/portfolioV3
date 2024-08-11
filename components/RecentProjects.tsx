@@ -11,17 +11,13 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-32 mt-40">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 lg:gap-32 mt-40 item-center ">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="h-full flex items-center justify-center w-[20rem] mb-40 md:mb-32"
+            className="h-full flex items-center w-[20rem] mb-40 md:mb-32"
           >
-            <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
-              className="mb-10"
-            >
+            <PinContainer title={link} href={link} className="mb-6">
               <div className="relative flex items-center justify-center overflow-hidden mb-10 w-[30rem] md:w-[25rem] h-full">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -35,7 +31,7 @@ const RecentProjects = () => {
                   <Image
                     src={img}
                     alt="cover"
-                    className="z-10 object-cover"
+                    className="object-cover object-center !top-2"
                     fill
                   />
                 </div>
@@ -70,9 +66,14 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <a
+                    href={link}
+                    target={"_blank"}
+                    rel="noopener noreferrer"
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                  >
                     Check Live Site
-                  </p>
+                  </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
