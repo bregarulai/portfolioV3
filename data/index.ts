@@ -106,3 +106,36 @@ export const navItems = [
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
+
+export const testimonials = [
+  {
+    quote:
+      "Collaborating with Flavio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Flavio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Flavio is the ideal partner.",
+    name: "Rajesh Tali",
+    title: "Backend Developer TCS",
+  },
+  {
+    quote:
+      "I had the pleasure of working with Flavio on a complex web application, and I couldn't be more impressed with his skills and professionalism. From the very start, Flavio demonstrated a deep understanding of front-end development, combining technical expertise with a keen eye for design.",
+    name: "Naren Nidhi",
+    title: "Project Manager TCS",
+  },
+  {
+    quote:
+      "Flavio's ability to translate intricate UI/UX designs into seamless, responsive, and user-friendly interfaces is truly remarkable. he was instrumental in ensuring that our application not only looked great but also performed flawlessly across all browsers. Flavio has in dept knowledge of modern front-end technologies like React, CSS, and JavaScript, and he is up-to-date with the latest trends and best practices.",
+    name: "Nick",
+    title: "Backend Developer UFResources",
+  },
+  {
+    quote:
+      "What sets Flavio apart is his problem-solving approach. He tackled every challenge with enthusiasm, often coming up with innovative solutions that enhanced the overall user experience. Communication was always clear and proactive, making collaboration easy and enjoyable",
+    name: "Nisha",
+    title: "Frontend Developer TCS",
+  },
+  {
+    quote:
+      "Beyond his technical skills, Flavio brought a positive and collaborative energy to the team, consistently going above and beyond to deliver high-quality work on time. I highly recommend Flavio to anyone looking for a top-notch front-end developer who is not only talented but also reliable and a joy to work with.",
+    name: "Robert",
+    title: "Frontend Developer UFResources",
+  },
+];
