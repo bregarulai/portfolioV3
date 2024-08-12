@@ -1,10 +1,11 @@
-import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import { companies, testimonials } from "@/data";
 import Image from "next/image";
 
-const Clients = () => {
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { companies, testimonials } from "@/data";
+
+const Testimonials = () => {
   return (
-    <section id="projects" className="py-20">
+    <section id="testimonials" className="py-20">
       <h1 className="heading">
         Kind words from
         <span className="text-purple"> resent co-workers</span>
@@ -35,4 +36,4 @@ const Clients = () => {
   );
 };
 
-export default Clients;
+export default Testimonials;

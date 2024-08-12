@@ -73,6 +73,7 @@ export const projects = [
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://event-platform-snowy-one.vercel.app",
+    codeLink: "https://github.com/bregarulai/event_platform",
   },
   {
     id: 2,
@@ -81,6 +82,7 @@ export const projects = [
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://live-docs-taupe.vercel.app",
+    codeLink: "https://github.com/bregarulai/live_docs",
   },
   {
     id: 3,
@@ -89,6 +91,7 @@ export const projects = [
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://healthcare-seven-wheat.vercel.app",
+    codeLink: "https://github.com/bregarulai/healthcare",
   },
   {
     id: 4,
@@ -97,6 +100,7 @@ export const projects = [
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://finance-eosin-three.vercel.app",
+    codeLink: "https://github.com/bregarulai/finance",
   },
 ];
 
@@ -154,5 +158,29 @@ export const companies = [
     img: "/ufrLogo.png",
     nameImg: "/ufrNameLogo.png",
     nameClassName: "w-56 h-8 relative hidden lg:block",
+  },
+];
+
+export const workExperience = [
+  {
+    id: 1,
+    title: "Front-end Developer",
+    desc: "Developed a micro-front-end application for the Product team at JPMorgan to launch new credit cards using React.js, ReduxToolkit, single-spa.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Front-end Developer",
+    desc: "Developed front-end for internal onboarding applications using React.js,SCSS, Context API, React Query.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "Programmer Analyst",
+    desc: "Provided L3 production support for the Cargill project, made UI changes for Java desktop application as per client requirements.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
   },
 ];

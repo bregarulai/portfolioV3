@@ -11,12 +11,12 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 lg:gap-32 mt-40 item-center">
-        {projects.map(({ id, title, des, img, iconLists, link }) => (
+        {projects.map(({ id, title, des, img, iconLists, link, codeLink }) => (
           <div
             key={id}
             className="h-full flex items-center w-[20rem] mb-28 md:mb-20"
           >
-            <PinContainer title={link} href={link} className="mb-6">
+            <PinContainer title={codeLink} href={link} className="mb-6">
               <div className="relative flex items-center justify-center overflow-hidden mb-10 w-[25rem] sm:w-[36rem] md:w-[25rem] h-full">
                 <div className="h-80 md:h-64 w-[27rem]">
                   {/* TODO: get Stock Images for the project */}
