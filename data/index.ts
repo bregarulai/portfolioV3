@@ -139,3 +139,20 @@ export const testimonials = [
     title: "Frontend Developer UFResources",
   },
 ];
+
+export const companies = [
+  {
+    id: 1,
+    name: "TCS",
+    img: "/tcsLogo.png",
+    nameImg: "/tcsNameLogo.png",
+    nameClassName: "w-36 h-12 relative hidden lg:block",
+  },
+  {
+    id: 2,
+    name: "UFResources",
+    img: "/ufrLogo.png",
+    nameImg: "/ufrNameLogo.png",
+    nameClassName: "w-56 h-8 relative hidden lg:block",
+  },
+];
