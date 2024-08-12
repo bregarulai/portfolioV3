@@ -3,7 +3,6 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { MagicButton } from "./ui/magic-button";
 import { socialMedia } from "@/data";
-import { profile } from "console";
 
 const Footer = () => {
   return (
@@ -47,7 +46,7 @@ const Footer = () => {
               className="w-10 h-10 cursor-pointer flex items-center
               justify-center rounded-lg border border-black-300 backdrop-filter
               backdrop-blur-lg saturate-200 bg-opacity-75 bg-black-200
-              hover:bg-opacity-100 transition duration-200 hover:bg-black-300"
+              hover:bg-opacity-100 transition duration-200 hover:bg-black-300 relative"
             >
               <Image
                 src={item.img}

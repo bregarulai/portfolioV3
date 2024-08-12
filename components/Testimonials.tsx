@@ -24,10 +24,10 @@ const Testimonials = () => {
                 className="flex items-center max-w-32 md:max-w-60 gap-2"
               >
                 <div className={imgClassName}>
-                  <Image src={img} alt={name} fill />
+                  <Image src={img} alt={name} fill sizes="100%" />
                 </div>
                 <div className={nameClassName}>
-                  <Image src={nameImg} alt={name} fill />
+                  <Image src={nameImg} alt={name} fill sizes="100%" />
                 </div>
               </div>
             )

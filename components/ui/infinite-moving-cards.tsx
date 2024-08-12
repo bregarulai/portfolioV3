@@ -111,6 +111,7 @@ export const InfiniteMovingCards = ({
                       src="/profile2.jpg"
                       alt="profile"
                       fill
+                      sizes="100%"
                       className="object-cover object-center rounded-full"
                     />
                   </div>

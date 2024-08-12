@@ -17,9 +17,9 @@ const RecentProjects = () => {
             key={id}
             className="h-full flex items-center w-[20rem] mb-28 md:mb-20 ml-4 md:ml-0"
           >
-            <PinContainer title={codeLink} href={link} className="mb-6">
+            <PinContainer title={link} href={link} className="mb-6">
               <div className="relative flex items-center justify-center overflow-hidden mb-10 w-[25rem] sm:w-[36rem] md:w-[25rem] h-full">
-                <div className="h-80 md:h-64 w-[27rem]">
+                <div className="h-80 md:h-64 w-[27rem] relative">
                   {/* TODO: get Stock Images for the project */}
                   <Image
                     src={img}
@@ -48,25 +48,31 @@ const RecentProjects = () => {
                   {iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center relative"
                       style={{
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        src={icon}
+                        alt="icon5"
+                        className="p-2"
+                        fill
+                        sizes="100%"
+                      />
                     </div>
                   ))}
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <a
-                    href={link}
-                    target={"_blank"}
-                    rel="noopener noreferrer"
+                  <span
+                    // href={link}
+                    // target={"_blank"}
+                    // rel="noopener noreferrer"
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                   >
                     Check Live Site
-                  </a>
+                  </span>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
