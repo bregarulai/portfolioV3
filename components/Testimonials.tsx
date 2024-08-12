@@ -17,19 +17,21 @@ const Testimonials = () => {
           speed="slow"
         />
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 mt-10">
-          {companies.map(({ id, img, name, nameImg, nameClassName }) => (
-            <div
-              key={id}
-              className="flex items-center max-w-32 md:max-w-60 gap-2"
-            >
-              <div className="size-8 relative block lg:hidden">
-                <Image src={img} alt={name} fill />
+          {companies.map(
+            ({ id, img, name, nameImg, nameClassName, imgClassName }) => (
+              <div
+                key={id}
+                className="flex items-center max-w-32 md:max-w-60 gap-2"
+              >
+                <div className={imgClassName}>
+                  <Image src={img} alt={name} fill />
+                </div>
+                <div className={nameClassName}>
+                  <Image src={nameImg} alt={name} fill />
+                </div>
               </div>
-              <div className={nameClassName}>
-                <Image src={nameImg} alt={name} fill />
-              </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
       </div>
     </section>

@@ -150,6 +150,7 @@ export const companies = [
     name: "TCS",
     img: "/tcsLogo.png",
     nameImg: "/tcsNameLogo.png",
+    imgClassName: "h-10 w-11 relative block lg:hidden",
     nameClassName: "w-36 h-12 relative hidden lg:block",
   },
   {
@@ -157,7 +158,16 @@ export const companies = [
     name: "UFResources",
     img: "/ufrLogo.png",
     nameImg: "/ufrNameLogo.png",
+    imgClassName: "w-12 h-8 relative block lg:hidden",
     nameClassName: "w-56 h-8 relative hidden lg:block",
+  },
+  {
+    id: 3,
+    name: "Cognizant",
+    img: "/cognizantLogo.png",
+    imgClassName: "w-8 h-7 relative block lg:hidden",
+    nameImg: "/cognizantNameLogo.png",
+    nameClassName: "w-44 h-8 relative hidden lg:block",
   },
 ];
 
