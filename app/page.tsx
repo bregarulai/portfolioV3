@@ -6,10 +6,11 @@ import { navItems } from "@/data";
 import Testimonials from "@/components/Testimonials";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex flex-col justify-center items-center overflow-hidden mx-auto px-5 sm:px-10">
+    <main className="relative bg-black-100 flex flex-col justify-center items-center mx-auto px-5 sm:px-10 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
@@ -18,6 +19,7 @@ export default function Home() {
         <Testimonials />
         <Experience />
         <Approach />
+        <Footer />
       </div>
     </main>
   );

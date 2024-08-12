@@ -1,7 +1,8 @@
-import { projects } from "@/data";
-import { PinContainer } from "./ui/3d-pin";
 import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa";
+
+import { projects } from "@/data";
+import { PinContainer } from "./ui/3d-pin";
 
 const RecentProjects = () => {
   return (

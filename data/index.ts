@@ -194,3 +194,18 @@ export const workExperience = [
     thumbnail: "/exp3.svg",
   },
 ];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    name: "GitHub",
+    link: "https://github.com/bregarulai",
+  },
+  {
+    id: 2,
+    img: "/link.svg",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/flavioluisaquino",
+  },
+];
