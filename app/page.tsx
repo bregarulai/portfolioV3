@@ -5,6 +5,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Testimonials from "@/components/Testimonials";
 import Experience from "@/components/Experience";
+import Approach from "@/components/Approach";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <RecentProjects />
         <Testimonials />
         <Experience />
+        <Approach />
       </div>
     </main>
   );
