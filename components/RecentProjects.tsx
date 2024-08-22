@@ -11,20 +11,19 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 lg:gap-32 mt-40 item-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 mt-40 item-center">
         {projects.map(({ id, title, des, img, iconLists, link, codeLink }) => (
           <div
             key={id}
-            className="h-full flex items-center w-[20rem] mb-28 md:mb-20 ml-4 md:ml-0"
+            className="lg:min-h-[35.5rem] h-[25rem] md:h-[35rem] flex items-center justify-center lg:w-[36rem] w-[86vw]"
           >
             <PinContainer title={link} href={link} className="mb-6">
-              <div className="relative flex items-center justify-center overflow-hidden mb-10 w-[25rem] sm:w-[36rem] md:w-[25rem] h-full">
-                <div className="h-80 md:h-64 w-[27rem] relative">
-                  {/* TODO: get Stock Images for the project */}
+              <div className="relative flex items-center justify-center lg:w-[36rem] w-[80vw] overflow-hidden h-[20vh] md:h-[30vh] mb-10">
+                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl">
                   <Image
                     src={img}
                     alt="cover"
-                    className="object-cover object-center"
+                    className="object-cover object-center rounded-2xl"
                     fill
                   />
                 </div>

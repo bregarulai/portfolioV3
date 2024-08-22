@@ -25,7 +25,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<PhaseButton order="Phase 2" />}
-          description="I am actively coding and implementing the designs and functionalities outlined in the planning phase. During this phase, the developer translates UI/UX designs into responsive, interactive interfaces, ensuring that the application performs well across different devices and browsers. Regular progress updates are provided to stakeholders, including demos of completed features, tracking of milestones, and addressing any challenges or changes in scope. This phase is crucial for maintaining transparency, ensuring quality, and keeping the project on schedule."
+          description="I am actively coding and implementing the designs and functionalities outlined in the planning phase. During this phase, I translates UI/UX designs into responsive, interactive interfaces, ensuring that the application performs well across different devices and browsers. Regular progress updates are provided to stakeholders, including demos of completed features, tracking of milestones, and addressing any challenges or changes in scope. This phase is crucial for maintaining transparency, ensuring quality, and keeping the project on schedule."
         >
           <CanvasRevealEffect
             animationSpeed={3}
